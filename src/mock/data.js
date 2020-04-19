@@ -49,7 +49,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'fazeres-list.png',
+    img: 'afazeres.png',
     title: 'Fazeres',
     info: 'A To Do List mobile app',
     info2: 'Built with React Native',
