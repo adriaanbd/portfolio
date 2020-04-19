@@ -31,38 +31,47 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'fbclone-feed.png',
+    title: 'MaskBook',
+    info: 'A Facebook replica',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://sleepy-tor-12192.herokuapp.com/',
+    repo: 'https://github.com/adriaanbd/facebook-clone',
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'battleship.png',
+    title: 'Acorazado',
+    info: 'Battleship, the game, created with vanilla JavaScript.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://jsbattleship.now.sh/',
+    repo: 'https://github.com/adriaanbd/jsbattleship', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'fazeres.png',
+    title: 'Fazeres',
+    info: 'A To Do List mobile app built with React Native',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/adriaanbd/fazeres-react-native', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'apple2014.jpg',
+    title: 'Apple 2014',
+    info: "Apple's 2014 landing page",
+    info2: '',
+    url: 'https://adriaanbd.github.io/apple2014/',
+    repo: 'https://github.com/adriaanbd/apple2014', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Looking forward in hearing from you!',
   btn: '',
-  email: '',
+  email: 'adriaanbd@gmail.com',
 };
 
 // FOOTER DATA
@@ -70,23 +79,23 @@ export const footerData = {
   networks: [
     {
       id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/adriaanbd/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/adriaanbd',
+    },
+    {
+      id: uuidv1(),
+      name: 'twitter',
+      url: 'https://twitter.com/abeiertz',
+    },
+    {
+      id: uuidv1(),
+      name: 'codepen',
+      url: 'https://codepen.io/adriaanbd/pens/showcase',
     },
   ],
 };
