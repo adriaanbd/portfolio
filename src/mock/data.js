@@ -12,18 +12,18 @@ export const heroData = {
   title: '> Hi, my name is',
   name: 'Adriaan',
   subtitle: "I'm a Full-stack Developer.",
-  cta: '',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'avatar.jpeg',
   paragraphOne:
-    'I’m a former law and music major turned full-stack developer with a creative, resilient and problem-solving attitude that learned just enough programming to create a script that automated a business task with a 95% time savings benefit for Thomson Reuters; where I transitioned from an operations role into a more technical role to lead requirements gathering & analysis meetings, and produce automation scripts with an internationally located and multidisciplinary team.',
+    'I’m a former law and music major turned full-stack developer with a creative, resilient and problem-solving attitude who learned just enough programming to create a script that automated a business task with a 95% time savings benefit for Thomson Reuters; where I transitioned from an operations role into a more technical role to lead requirements gathering & analysis meetings, and produce automation scripts with an internationally located and multidisciplinary team.',
   paragraphTwo:
-    'I’ve mentored hundreds of persons and reviewed over 200 full-stack development projects for two major tech education companies while learning data structures and algorithms, full-stack development and building over 30 projects including a Facebook replica, a vitals tracking mobile web app, a battleship game, a Newsweek replica, among others.',
+    'I’ve mentored hundreds of people and reviewed over 200 full-stack development projects for two major tech education companies while learning data structures and algorithms, full-stack development and building over 30 projects including a Facebook replica, a vitals tracking mobile web app, a battleship game, and a Newsweek replica, among others.',
   paragraphThree:
-    "I'm looking to join a collaborative and multidisciplinary team that takes risks and embraces failure, incorporates good software development practices and motivates people to grow professionally and technically. I'm fluent in Ruby, Rails, JavaScript, React, Redux, Python, Django, HTML, and CSS; nevertheless I enjoy learning new languages and frameworks.",
+    "I'm looking to join a collaborative and multidisciplinary team that takes risks and embraces failure, incorporates good software development practices and motivates people to grow professionally and technically. I'm fluent in Ruby, Rails, JavaScript, React, Redux, Python, Django, HTML, and CSS; I also enjoy learning new languages and frameworks.",
   resume: 'https://drive.google.com/open?id=1iO1xYkbXey_na9jbEFkeB7yhNqULYfaS',
 };
 
@@ -36,7 +36,7 @@ export const projectsData = [
     info:
       'A Facebook replica wherein users can add and remove friends; create, read, edit and remove posts & comments; create, read, remove likes on posts & comments; receive notifications on friend requests, likes and comments; and see a post feed. The database schema is based on seven (7) models User, FriendRequest, Frienship, Post, Notification, Comment and Like.',
     info2:
-      'This web app is a monolith application built with Ruby on Rails v5, PostgreSQL, HTML and CSS. It is fully tested including unit, feature and integrations tests using Rspec, Capybara and FactoryBot.',
+      'This web app was built with Ruby on Rails v5, PostgreSQL, HTML and CSS. It is fully tested including unit, feature and integrations tests using Rspec, Capybara and FactoryBot.',
     url: 'https://sleepy-tor-12192.herokuapp.com/',
     repo: 'https://github.com/adriaanbd/facebook-clone',
   },
@@ -74,7 +74,7 @@ export const projectsData = [
     id: uuidv1(),
     img: 'newsweek.png',
     title: 'Newsweek 2019',
-    info: 'A replica of the notorious online newspaper Newsweek.',
+    info: 'A replica of the well known online newspaper Newsweek.',
     info2: 'Built with HTML, CSS and Bootstrap 4.',
     url: 'https://adriaanbd.github.io/news-media-site/',
     repo: 'https://github.com/adriaanbd/news-media-site',
