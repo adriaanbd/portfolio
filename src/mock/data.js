@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'I’m a former law and music major turned full-stack developer with a creative, resilient and problem-solving attitude who learned just enough programming to create a script that automated a business task with a 95% time savings benefit for Thomson Reuters; where I transitioned from an operations role into a more technical role to lead requirements gathering & analysis meetings, and produce automation scripts with an internationally located and multidisciplinary team.',
   paragraphTwo:
-    'I’ve mentored hundreds of people and reviewed over 200 full-stack development projects for two major tech education companies while learning data structures and algorithms, full-stack development and building over 30 projects including a Facebook replica, a vitals tracking mobile web app, a battleship game, and a Newsweek replica, among others.',
+    'I’ve mentored hundreds of people and reviewed over 200 full-stack development projects for two major tech education companies while learning data structures and algorithms, full-stack development and building over 30 projects including a Facebook replica, a vitals tracking mobile web app, a healthcare app for the elderly, a battleship game, and a Newsweek replica, among others.',
   paragraphThree:
     "I'm looking to join a collaborative and multidisciplinary team that takes risks and embraces failure, incorporates good software development practices and motivates people to grow professionally and technically. I'm fluent in Ruby, Rails, JavaScript, React, Redux, Python, Django, HTML, and CSS; I also enjoy learning new languages and frameworks.",
   resume: 'https://drive.google.com/open?id=1iO1xYkbXey_na9jbEFkeB7yhNqULYfaS',
@@ -87,15 +87,6 @@ export const projectsData = [
     info2: 'Built with HTML & CSS.',
     url: 'https://adriaanbd.github.io/apple2014/',
     repo: 'https://github.com/adriaanbd/apple2014',
-  },
-  {
-    id: uuidv1(),
-    img: 'thenextweb.png',
-    title: 'The Next Web 2019',
-    info: "A replica of TheNextWeb's 2019 website.",
-    info2: 'Built with HTML & CSS.',
-    url: 'https://adriaanbd.github.io/techy-media-site/',
-    repo: 'https://github.com/adriaanbd/techy-media-site',
   },
 ];
 
