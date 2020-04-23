@@ -88,15 +88,6 @@ export const projectsData = [
     url: 'https://adriaanbd.github.io/apple2014/',
     repo: 'https://github.com/adriaanbd/apple2014',
   },
-  {
-    id: uuidv1(),
-    img: 'thenextweb.png',
-    title: 'The Next Web 2019',
-    info: "A replica of TheNextWeb's 2019 website.",
-    info2: 'Built with HTML & CSS.',
-    url: 'https://adriaanbd.github.io/techy-media-site/',
-    repo: 'https://github.com/adriaanbd/techy-media-site',
-  },
 ];
 
 // CONTACT DATA
