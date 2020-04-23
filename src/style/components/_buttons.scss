@@ -1,4 +1,11 @@
 /* Call to Action Button */
+#repo:hover {
+  text-decoration: underline !important;
+  text-decoration-color: $secondary-color !important;
+  text-decoration-thickness: 3px !important;
+  transition: none;
+}
+
 .cta-btn {
   display: inline-block;
   position: relative;
@@ -23,6 +30,7 @@
 
 /* Hero Style */
 .cta-btn--hero {
+  text-decoration: none !important;
   background-image: linear-gradient(
     135deg,
     $primary-color 0%,
